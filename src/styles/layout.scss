@@ -1,0 +1,160 @@
+body,
+#root,
+.layout {
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('http://www.pptbackgrounds.org/uploads/earth-tones-antique-paper-powerpoint-backgrounds.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  padding-top: 15px;
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  color: hsla(267, 100%, 0%, 0.8);
+  //text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+main {
+  max-width: 700px;
+  min-width: 320px;
+  width: 100vw;
+//margin: 1em auto;
+  //padding: 1em;
+  flex: 1;
+  border-radius: 0.5em;
+  margin-top: -3em;
+
+  p {
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    font-weight: bold;
+  }
+}
+
+.about {
+  font-family: 'Tinos', serif;
+  font-size: 17.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 150%;
+  color: black;
+  font-weight: bold;
+}
+
+
+.links {
+  padding: 1px;
+  font-family: 'Metal Mania', cursive;
+  font-size: 2em;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  border-radius: 0.25em;
+  width: 100vw;
+  max-width: 400px;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:focus {
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    color: white;
+  }
+
+  a:hover {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+  }
+
+  li {
+    padding: 10px;
+    background-image: url('https://image-pd.s3.envato.com/files/40213881/Stone%20Surface%20-%20Background%20Texture%20For%20Graffiti-1.jpg');
+    width: 3.5em;
+    height: 2em;
+    text-align: center;
+    border-radius: 1em 1em 0 0;
+    font-size: 20px;
+    line-height: 2em;
+  }
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Metal Mania', cursive;
+  font-size: 3em;
+  color: hsla(267, 100%, 0%, 0.8);
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Metal Mania', cursive;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: lightgrey;
+  }
+}
+
+p {
+  text-align: center;
+}
+
+.category .name {
+  font-family: 'Metal Mania', cursive;
+}
+
+.categories ul {
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:focus {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: lightgrey;
+  }
+
+  a:hover {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: black;
+  }
+}

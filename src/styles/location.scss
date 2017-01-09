@@ -1,0 +1,42 @@
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // this is the aspect ratio
+  height: 0;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address {
+  font-family: 'Tinos', serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.days {
+  font-family: 'Metal Mania', cursive;
+  font-size: 21px;
+}
+
+.hours {
+  font-family: 'Tinos', serif;
+  font-weight: bold;
+  font-size: 17.5px;
+}

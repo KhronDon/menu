@@ -1,0 +1,90 @@
+{
+  "locations":[
+    {
+      "slug": "dtsp",
+      "name": "Downtown St. Pete",
+      "address":"260 1st Ave S, Suite 300, St Petersburg, FL, 33701",
+      "hours": [
+        {"days": "Mon-Fri", "hours":"11:00 A.M. - 2:00 A.M."},
+        {"days": "Sat", "hours":"11:00 A.M. - 5:00 A.M."},
+        {"days": "Sun", "hours":"11:00 A.M. - 12:00 A.M."}
+      ],
+      "mapPlaceId": "ChIJ2ckQoZzhwogR0f0sRp07BJo"
+    },
+    {
+      "slug":"welcome2hell",
+      "name":"Hell's Gate",
+      "address":"3701 SW 12th St, Topeka, KS 66604",
+      "hours": [
+        {"days": "Mon-Sun", "hours":"24 Hours"}
+      ],
+      "mapPlaceId": "ChIJVTxnzZoCv4cRD2ZCsEUKLfw"
+    },
+    {
+      "slug": "----",
+      "name": "",
+      "address": "",
+      "hours": [
+        {"days": "Mon-Fri", "hours":""},
+        {"days": "Sat", "hours":""},
+        {"days": "Sun", "hours":""}
+      ],
+      "mapPlaceId": ""
+    }
+  ],
+  "menu": [
+    {
+      "name": "Abysmal Appetizers",
+      "slug": "apps",
+      "items": [
+        {
+          "name": "Fried Goat (Horns) Cheese Bites ",
+          "description": "Evil, gooey and delicious",
+          "price": 666
+        },
+        {
+          "name": "Belial Breadsticks",
+          "description": "All the worthless breadsticks you can eat with our famous virgin blood marinara.  Served hot by the half dozen.",
+          "price": 666
+        },
+        {
+          "name": "GHOST Pepper Poppers",
+          "description": "Hawt...",
+          "price": 666
+        }
+      ]
+    },
+    {
+      "name": "Pizza Purgatory",
+      "slug": "pizza",
+      "items": [
+        {
+          "name": "Meat Lovers",
+          "description": "Made with only the finest flesh.  Make it a cannibal pie for only $6.66 more!",
+          "price": 2666
+        },
+        {
+          "name": "",
+          "decription": "",
+          "price": 1666
+        }
+      ]
+    },
+    {
+      "name": "Death Metal Desserts",
+      "slug":"desserts",
+      "items": [
+        {
+          "name": "3 Inches of Blood Pie",
+          "description": "Our 3IoB Pie is bloody delicious!",
+          "price": 666
+        },
+        {
+          "name": "Devil's Food Cake",
+          "description": "Devilishly delightful!",
+          "price": 666
+        }
+      ]
+    }
+  ]
+}

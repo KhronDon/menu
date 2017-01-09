@@ -1,4 +1,6 @@
 @import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+@import url('https://fonts.google.com/specimen/Tinos');
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
@@ -11,4 +13,20 @@ body {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+}
+
+@import 'layout';
+@import 'menu';
+@import 'location';
+// @import 'contact';
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+  font-family: 'Metal Mania', cursive;
+  font-size: 2em;
+  padding-left: 0;
 }
