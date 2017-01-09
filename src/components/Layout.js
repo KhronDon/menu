@@ -30,11 +30,28 @@ class Layout extends Component {
           </li>
         </ul>
       </nav>
+      <nav>
+        <ul className='fire'>
+          <li>
+            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+          </li>
+          <li>
+            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+          </li>
+          <li>
+            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+          </li>
+          <li>
+            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+          </li>
+        </ul>
+      </nav>
       <main>
         {this.props.children}
       </main>
       <footer>
         <p>&copy; 2017 Slaughter of the Slice.  Built with &hearts; at The Iron Yard, in St. Petersburg, Florida.</p>
+        <img src='http://pngimg.com/upload/fire_PNG6032.png' />
       </footer>
     </div>
   }

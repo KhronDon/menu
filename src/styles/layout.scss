@@ -25,8 +25,6 @@ main {
   max-width: 700px;
   min-width: 320px;
   width: 100vw;
-//margin: 1em auto;
-  //padding: 1em;
   flex: 1;
   border-radius: 0.5em;
   margin-top: -3em;
@@ -86,7 +84,7 @@ main {
     padding: 10px;
     background-image: url('https://image-pd.s3.envato.com/files/40213881/Stone%20Surface%20-%20Background%20Texture%20For%20Graffiti-1.jpg');
     width: 3.5em;
-    height: 2em;
+    height: 3em;
     text-align: center;
     border-radius: 1em 1em 0 0;
     font-size: 20px;
@@ -159,4 +157,24 @@ p {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     color: black;
   }
+}
+
+.fire {
+  margin-top: -65px;
+  padding-left: 10px;
+
+  img {
+    width: 102px;
+    height: 40px;
+    margin-top: -100px;
+    padding-top: -100px;
+  }
+}
+
+footer img {
+  width: 100vw;
+  height: 100px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: -1px;
 }
