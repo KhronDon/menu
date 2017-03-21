@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
 
+import flameImage from '../Images/flame.png'
+
 class Layout extends Component {
 
   static propTypes = {
@@ -33,16 +35,16 @@ class Layout extends Component {
       <nav>
         <ul className='fire'>
           <li>
-            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+            <img src={flameImage} />
           </li>
           <li>
-            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+            <img src={flameImage} />
           </li>
           <li>
-            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+            <img src={flameImage} />
           </li>
           <li>
-            <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+            <img src={flameImage} />
           </li>
         </ul>
       </nav>
@@ -51,7 +53,7 @@ class Layout extends Component {
       </main>
       <footer>
         <p>&copy; 2017 Slaughter of the Slice.  Built with &hearts; at The Iron Yard, in St. Petersburg, Florida.</p>
-        <img src='http://pngimg.com/upload/fire_PNG6032.png' />
+        <img src={flameImage} />
       </footer>
     </div>
   }
